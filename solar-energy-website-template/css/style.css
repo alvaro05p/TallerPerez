@@ -9526,6 +9526,13 @@ h4, h5, h6 {
   outline: none;
 }
 
+@media (max-width: 1200px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 10px;
+  }
+}
+
+
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
   color: #cc3131;
